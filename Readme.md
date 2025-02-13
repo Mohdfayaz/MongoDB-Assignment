@@ -168,7 +168,7 @@ db.tasks.find({
   date: { $gte: ISODate("2020-10-01"), $lte: ISODate("2020-10-31") } 
 });
 
- Output;
+ -- -- -- Output;
 
 json
 [
