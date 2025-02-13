@@ -243,7 +243,7 @@ Query;
 js
 db.codekata.find({}, { user_id: 1, problems_solved: 1 });
  
- Output;
+ -- -- -- Output;
 
 json
 [
