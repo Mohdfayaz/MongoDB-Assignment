@@ -190,7 +190,7 @@ db.company_drives.find({
   drive_date: { $gte: ISODate("2020-10-15"), $lte: ISODate("2020-10-31") }
 });
 
- Output;
+ -- -- -- Output;
 
 json
 [
