@@ -259,7 +259,7 @@ db.mentors.find({
   $expr: { $gt: [{ $size: "$mentees" }, 15] } 
 });
 
- Output;
+ -- -- -- Output;
 
 json
 [
