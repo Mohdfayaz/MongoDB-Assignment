@@ -240,6 +240,7 @@ json
 4. Find the number of problems solved by each user in Codekata;
 
 Query;
+
 js
 db.codekata.find({}, { user_id: 1, problems_solved: 1 });
  
@@ -254,6 +255,7 @@ json
 5. Find all mentors who have more than 15 mentees;
 
 Query;
+
 js
 db.mentors.find({ 
   $expr: { $gt: [{ $size: "$mentees" }, 15] } 
