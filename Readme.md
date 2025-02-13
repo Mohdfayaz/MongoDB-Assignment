@@ -289,7 +289,7 @@ db.users.aggregate([
   }
 ]);
 
- Output;
+ -- -- -- Output;
 
 json
 [
